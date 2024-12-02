@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Videojuegos</h1>
+    </header>
+    <main>
+        <section id="carousel">
+            <div id="product-display">
+                <div id="product-left">
+                    <img id="product-image-left" src="" alt="Imagen del Producto">
+                    <h2 id="product-name-left"></h2>
+                    <p id="product-price-left"></p>
+                    <button id="add-to-cart-left">Añadir al Carrito</button>
+                </div>
+                <div id="product-right">
+                    <img id="product-image-right" src="" alt="Imagen del Producto">
+                    <h2 id="product-name-right"></h2>
+                    <p id="product-price-right"></p>
+                    <button id="add-to-cart-right">Añadir al Carrito</button>
+                </div>
+            </div>
+            <div id="carousel-controls">
+                <button id="prev-product">Anterior</button>
+                <button id="next-product">Siguiente</button>
+            </div>
+        </section>
+        
+        <section id="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <div class="prueba">
+                <p>Total: <span id="cart-total">0.00</span>€</p>
+                <button id="checkout">Finalizar Compra</button>
+
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
